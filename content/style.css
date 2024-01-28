@@ -1,0 +1,29 @@
+/*
+Author: Tolihat Gbadebo
+Course Code: INFT2202
+Filename: style.css
+Date: January 18th, 2024
+Description: This is css file for this website
+*/
+
+#welcome-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    font-size: 2em;
+}
+#slideshow-container {
+    position: inherit;
+    width: 100%;
+    height: 100vh;
+}
+
+.form-signin {
+    width: 100%;
+    max-width: 330px;
+    padding: 15px;
+    margin: 0 auto;
+}

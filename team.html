@@ -1,0 +1,126 @@
+<!--
+Author: Tolihat Gbadebo
+Course Code: INFT2202
+Filename: team.html
+Date: January 24th, 2024
+Description: This is the team page for Assignment 01 website.
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Tolihat Gbadebo">
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Team</title>
+    <!-- CSS Section -->
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="node_modules/@fortawesome/fontawesome-free/css/all.css">
+    <link rel="stylesheet" href="content/style.css">
+</head>
+<body>
+
+<header>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><i class="fa-solid fa-people-group">    Harmony Hub</i></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="portfolio.html">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="services.html">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="team.html">Team</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="blog.html" id="blogLink">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="privacy.html">Privacy Policy</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="terms.html">Terms of Service</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+</header>
+
+<!-- Team Page Content -->
+<div id="team" class="page">
+    <br/>
+    <h2>&nbsp;&nbsp;<i class="fa-solid fa-user-tie"></i>&nbsp;Team</h2>
+
+    <!-- Team Members Grid -->
+    <div class="team-grid">
+        <!-- Team Member 1 -->
+        <div class="team-member" data-toggle="modal" data-target="#member1-modal">
+            <img src="images/mypic.jpg" alt="Team Member 1">
+            <div>
+            <h3>Tolihat Gbadebo</h3>
+            <b>Role As a Front-End Developer:</b>
+            <p>Responsible for creating and implementing the visual elements of a website or web application
+                that users interact with directly. His primary focus is on the user interface (UI)
+                and user experience (UX), ensuring that the website is visually appealing, intuitive,
+                and functions seamlessly.</p>
+            </div>
+        </div>
+
+
+
+
+
+    </div>
+
+    <!-- Team Member Modals -->
+
+    <div class="modal fade" id="member1-modal" tabindex="-1" role="dialog" aria-labelledby="member1-modal-label" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="member1-modal-label">John Doe - Lead Developer</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p>Detailed information about John Doe. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- Add more modals for additional team members -->
+
+</div>
+
+
+<!-- Scripting Section -->
+<script src="./node_modules/jquery/dist/jquery.min.js"></script>
+<script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="scripts/main.js"></script>
+</body>
+</html>
